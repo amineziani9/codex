@@ -1,10 +1,10 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
-  --primary-color: #3f51b5;
-  --secondary-color: #f50057;
-  --header-bg: #f0f0f0;
-  --section-bg: #fafafa;
+  --primary-color: #4f46e5;
+  --secondary-color: #ec4899;
+  --header-bg: #e0e7ff;
+  --section-bg: #f8fafc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,7 +25,7 @@ body.dark {
 
 /* Base layout */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: var(--bg-color);
@@ -37,7 +37,7 @@ header,
 footer {
   background: var(--header-bg);
   color: var(--text-color);
-  padding: 1rem 2rem;
+  padding: 1.5rem 2.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,16 +60,16 @@ nav a {
 }
 
 main {
-  padding: 2rem;
+  padding: 3rem;
   max-width: 1200px;
   margin: auto;
   display: grid;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 section {
   background: var(--section-bg);
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 8px;
 }
 
@@ -86,6 +86,10 @@ h3 {
   align-items: center;
   text-align: center;
   gap: 1rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: #fff;
+  padding: 4rem 2rem;
+  border-radius: 8px;
 }
 
 .btn {
