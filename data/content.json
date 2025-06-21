@@ -1,3 +1,31 @@
 {
-    "message": "Contenu du site"
+  "hero": {
+    "title": "Réussir les concours avec PrepaSuccess",
+    "subtitle": "Accompagnement sur mesure pour les élèves de prépa scientifiques",
+    "cta": "Découvrir les cours"
+  },
+  "mission": "Nous accompagnons les étudiants de classes préparatoires scientifiques avec des cours personnalisés, flexibles et solidaires. Notre objectif est la réussite de chacun aux concours.",
+  "values": ["Excellence", "Accessibilité", "Flexibilité", "Honnêteté", "Solidarité"],
+  "courses": [
+    { "type": "Groupe", "students": "8-10", "price": 50, "level": "Standard" },
+    { "type": "Groupe fermé", "students": "4", "price": 100, "level": "Standard" },
+    { "type": "Duo", "students": "2", "price": 150, "level": "Avancé" },
+    { "type": "Individuel", "students": "1", "price": 200, "level": "Très avancé" }
+  ],
+  "resources": [
+    "Cours détaillés",
+    "Fiches méthodologiques",
+    "Annales corrigées",
+    "Exercices thématiques"
+  ],
+  "team": [
+    { "name": "Yassir", "school": "Polytechnique", "photo": "yassir.jpg" },
+    { "name": "Lina", "school": "ENSIMAG", "photo": "lina.jpg" },
+    { "name": "Omar", "school": "Centrale Lyon", "photo": "omar.jpg" }
+  ],
+  "contact": {
+    "email": "contact@prepasuccess.com",
+    "phone": "+33 7 81 78 81 63",
+    "instructions": "Merci de nous envoyer vos besoins (chapitres, rythme, niveau) pour planifier une première séance."
+  }
 }
