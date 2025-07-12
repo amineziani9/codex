@@ -83,13 +83,15 @@ h3 {
 .hero {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   gap: 1rem;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: #0d1117;
   color: #fff;
   padding: 4rem 2rem;
   border-radius: 8px;
+  min-height: 80vh;
 }
 
 .btn {
