@@ -1,26 +1,26 @@
 :root {
-  --bg-color: #ffffff;
-  --text-color: #333333;
+  --bg-color: #0d1117;
+  --text-color: #d1d5db;
   --primary-color: #4f46e5;
-  --secondary-color: #ec4899;
-  --header-bg: #e0e7ff;
-  --section-bg: #f8fafc;
+  --secondary-color: #6366f1;
+  --header-bg: #0d1117;
+  --section-bg: #121212;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #121212;
-    --text-color: #e0e0e0;
-    --header-bg: #1e1e1e;
-    --section-bg: #1a1a1a;
+    --bg-color: #0d1117;
+    --text-color: #d1d5db;
+    --header-bg: #0d1117;
+    --section-bg: #121212;
   }
 }
 
 body.dark {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --header-bg: #1e1e1e;
-  --section-bg: #1a1a1a;
+  --bg-color: #0d1117;
+  --text-color: #d1d5db;
+  --header-bg: #0d1117;
+  --section-bg: #121212;
 }
 
 /* Base layout */
@@ -84,6 +84,7 @@ h1,
 h2,
 h3 {
   margin-top: 0;
+  color: #ffffff;
 }
 
 /* Hero section */
