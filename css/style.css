@@ -370,6 +370,25 @@ footer ul {
   margin-bottom: 0.5rem;
 }
 
+.slogan-section {
+  background: #0d1117;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.slogan-section p {
+  margin: 0;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .slogan-section p {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   header,
   footer {
