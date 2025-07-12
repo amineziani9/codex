@@ -240,3 +240,44 @@ footer ul {
     justify-content: center;
   }
 }
+
+/* Cours section */
+.cours {
+  background: #0e0e0e;
+  color: #fff;
+}
+
+.cours-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cours-item {
+  background: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rythme,
+.flexible,
+.liberte {
+  margin-top: 2rem;
+}
+
+.rythme ul,
+.liberte ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rythme li,
+.liberte li {
+  margin-bottom: 0.5rem;
+}
