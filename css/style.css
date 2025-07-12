@@ -195,6 +195,25 @@ footer ul {
   margin-bottom: 1rem;
 }
 
+/* Pourquoi ce projet */
+.projet-section {
+  background: #181818;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .projet-section {
+    text-align: center;
+  }
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   header,
